@@ -45,7 +45,7 @@ The hacks exploits a flaw in firmware version 3.4.2_0062, **please read the inst
 
 - If you have firmware version 3.4.2_0062, go to [Install the hacks](#install-the-hacks)
 
-- If you have another firmware version, go to [Downgrade the Firmware](#downgrade-the-firmware)
+- If you have another firmware version, nothing can be done unfortunately.
 
 ### View camera firmware version
 1. Configure the camera using the Mi Home app
@@ -54,20 +54,11 @@ The hacks exploits a flaw in firmware version 3.4.2_0062, **please read the inst
 4. The current firmware version is presented on the screen
 
 ### Downgrade the Firmware
-**You will lose the camera configuration!**
 
-⚠️ Please be careful!
 
-⚠️ Do not power down the camera while flashing!
+⚠️ It is not possible to downgrade the frimware to 3.4.2_0062 on the MJSXJ05CM
 
-⚠️ Make sure you understand all the steps before continuing!
-
-1. Grab tf_recovery.bin file from [here](https://github.com/telmomarques/xiaomi-360-1080p-hacks/raw/master/firmware/3.4.2_0062/tf_recovery.img).
-2. Put the file in the root of your SD Card (don't change the name!)
-3. Power down the camera and insert the SD Card
-4. Power on the camera and wait, the led will be a solid yellow while the firmware is flashing (this will take several minutes!)
-6. When the camera starts rotating and asking for the QR code, it's done.
-7. Go to ["Install the hacks"](#install-the-hacks) below.
+If you have try to use an firmware and you camera is stuck on amber light try [this firmware](https://drive.google.com/file/d/1ve6XlBEiZebJV6ukJ0Oiu7DePw2JCsWj/view)
 
 ### Install the hacks
 1. Configure the camera using the Mi Home app
